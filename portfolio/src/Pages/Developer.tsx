@@ -35,40 +35,29 @@ export default Developer
 
 export const projects = [
   {
-    title: "Stripe",
+    title: "Portfolio",
     description:
-      "A technology company that builds economic infrastructure for the internet.",
+      <video src="src/assets/portfolio.mp4" controls className="w-full h-full" />,
     link: "https://stripe.com",
   },
   {
-    title: "Netflix",
+    title: "PassWord Generator",
     description:
-      "A streaming service that offers a wide variety of award-winning TV shows, movies, anime, documentaries, and more on thousands of internet-connected devices.",
-    link: "https://netflix.com",
+      <video src="src/assets/password.mp4" controls className="w-full h-full" />,
+    link: "https://password-generator.framer.app/",
   },
   {
-    title: "Google",
+    title: "Blood Donor App",
     description:
-      "A multinational technology company that specializes in Internet-related services and products.",
-    link: "https://google.com",
+      <video src="src/assets/blood-donor-vid.mp4" controls className="w-full h-full" />,
+    link: "https://blood-donor-app.framer.app/",
   },
   {
-    title: "Meta",
+    title: "Edge Computing Research Work",
     description:
-      "A technology company that focuses on building products that advance Facebook's mission of bringing the world closer together.",
-    link: "https://meta.com",
+      <video src="src/assets/cloud-work.mp4" controls className="w-full h-full" />,
+    link: "https://edge-computing-research.framer.app/",
   },
-  {
-    title: "Amazon",
-    description:
-      "A multinational technology company focusing on e-commerce, cloud computing, digital streaming, and artificial intelligence.",
-    link: "https://amazon.com",
-  },
-  {
-    title: "Microsoft",
-    description:
-      "A multinational technology company that develops, manufactures, licenses, supports, and sells computer software, consumer electronics, personal computers, and related services.",
-    link: "https://microsoft.com",
-  },
+ 
 ];
 

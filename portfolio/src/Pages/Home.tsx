@@ -10,7 +10,7 @@ function Home() {
 
 
     return (
-      <AuroraBackground >
+      <AuroraBackground className='h-full max-w-screen' >
       <motion.div
         initial={{ opacity: 0.0, y: 40 }}
         whileInView={{ opacity: 1, y: 0 }}
@@ -19,9 +19,9 @@ function Home() {
           duration: 0.8,
           ease: "easeInOut",
         }}
-        className="relative flex flex-col gap-0 items-center justify-center px-4"
+        className="relative flex flex-col gap-0 items-center justify-center  px-4"
       >
-        <main className="  flex gap-1 flex-col md:flex-row overflow-hidden  items-center justify-center  w-full  m-2 p-2">
+        <main className="  flex gap-1 flex-col md:flex-row overflow-hidden  items-center justify-center h-full w-full  m-2 p-2">
 
 
 
