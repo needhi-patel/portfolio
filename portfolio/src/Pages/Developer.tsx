@@ -38,13 +38,13 @@ export const projects = [
     title: "Portfolio",
     description:
       <video src="src/assets/portfolio.mp4" controls className="w-full h-full" />,
-    link: "https://stripe.com",
+    link: "https://github.com/needhi-patel/portfolio",
   },
   {
     title: "PassWord Generator",
     description:
       <video src="src/assets/password.mp4" controls className="w-full h-full" />,
-    link: "https://password-generator.framer.app/",
+    link: "https://github.com/needhi-patel/proj",
   },
   {
     title: "Blood Donor App",
@@ -56,7 +56,7 @@ export const projects = [
     title: "Edge Computing Research Work",
     description:
       <video src="src/assets/cloud-work.mp4" controls className="w-full h-full" />,
-    link: "https://edge-computing-research.framer.app/",
+    link: "https://github.com/needhi-patel/research-work",
   },
  
 ];

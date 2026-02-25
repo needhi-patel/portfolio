@@ -5,11 +5,7 @@ import {
   GlowingStarsTitle,
 } from "../components/ui/glowing-stars";
 
-import { SiReact, SiTailwindcss,  SiJavascript, SiTypescript , SiNodedotjs , SiVite  , SiHtml5 , SiCss, SiSass, SiExpress , SiApifox , SiPostman , SiMongodb, 
-  SiMysql, 
-  SiPostgresql, 
-  SiRedis, 
-  SiFirebase , SiJsonwebtokens , SiGithub , SiFigma } from '@icons-pack/react-simple-icons';
+import { SiReact, SiTailwindcss, SiJavascript, SiTypescript, SiNodedotjs, SiVite, SiHtml5, SiCss, SiSass, SiExpress, SiPostman, SiMongodb, SiMysql, SiJsonwebtokens, SiGithub, SiFigma } from '@icons-pack/react-simple-icons';
 import { Button } from "../components/ui/moving-border";
 import { Timeline } from "@/components/ui/timeline";
 
