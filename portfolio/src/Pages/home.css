@@ -1,0 +1,103 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Federant&display=swap');
+
+
+
+.federant-regular {
+  font-family: "Federant", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+body {
+
+  font-family: "Federant", serif;
+  text-align:center;
+}
+
+#container {
+  margin-bottom: 50px;
+  color:#f9f9f9;
+  text-transform: uppercase;
+  font-size:36px;
+  font-weight:bold;
+  padding-top:20px;  
+  width:100%;
+  bottom:8%;
+  display:block;
+  
+}
+
+#flip {
+  height:50px;
+  overflow:hidden;
+}
+
+#flip > div > div {
+  color:#1722f7;
+  padding:4px 12px;
+  height:45px;
+  margin-bottom:45px;
+  display:inline-block;
+}
+
+#flip div:first-child {
+  animation: show 8s linear infinite;
+}
+
+/* #flip div div {
+  background:#f5f7f6;
+}
+#flip div:first-child div {
+  background:#dfe4e6;
+}
+#flip div:last-child div {
+  background:#efecec;
+} */
+
+@keyframes show {
+  0% {margin-top:-270px;}
+  5% {margin-top:-180px;}
+  33% {margin-top:-180px;}
+  38% {margin-top:-90px;}
+  66% {margin-top:-90px;}
+  71% {margin-top:0px;}
+  99.99% {margin-top:0px;}
+  100% {margin-top:-270px;}
+}
+
+/* p {
+  position:fixed;
+  width:100%;
+  bottom:30px;
+  font-size:12px;
+  color:#999;
+  margin-top:20px;
+} */
+
+@import "tailwindcss";
+
+@theme inline {
+  --animate-aurora: aurora 60s linear infinite;
+  @keyframes aurora {
+    from {
+      background-position:
+        50% 50%,
+        50% 50%;
+    }
+    to {
+      background-position:
+        350% 50%,
+        350% 50%;
+    }
+  }
+}
+
+
+@media(min-width:883px){
+  #container{
+    font-size: 2rem;
+    bottom:40%;
+  }
+}
